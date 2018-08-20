@@ -53,6 +53,11 @@ app.get('/about',(req,res)=>{
 
 });
 
+app.get('/projects',(req,res)=>{
+  res.render('projects.hbs',{
+    pageTitle:'My projects'
+  })
+})
 //sends error back with json message
 app.get('/bad', (req, res) => {
   res.send({
