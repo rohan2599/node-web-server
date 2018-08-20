@@ -1,5 +1,5 @@
 # Node-web-server
-A basic node app which is deployed using heroku using ssh key generation 
+A node based server which uses express framework and deployed through heroku
 
 Installation
 ===
